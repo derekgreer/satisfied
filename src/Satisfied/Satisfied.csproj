@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net452</TargetFrameworks>
+    <Authors>Derek Greer</Authors>
+    <AssemblyTitle>Satisfied</AssemblyTitle>
+    <Description>A specification library</Description>
+    <PackageTags>specifications</PackageTags>
+    <PackageProjectUrl>https://github.com/derekgreer/satisfied/</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/derekgreer/satisfied/raw/master/images/ico.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/derekgreer/satisfied/raw/master/license.txt</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/derekgreer/satisfied/</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
+  </ItemGroup>
+
+</Project>
