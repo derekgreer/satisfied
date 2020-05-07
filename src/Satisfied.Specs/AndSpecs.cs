@@ -6,7 +6,7 @@ namespace Satisfied.Specs
     public class AndSpecs
     {
         [Subject("And Specification")]
-        public class when_satisfying_two_satisfied_specificatons
+        public class when_satisfying_two_satisfied_specifications
         {
             static ISpecification<string> _nameContainsJaneAndDoeSpecification;
             static bool _results;
@@ -24,7 +24,7 @@ namespace Satisfied.Specs
         }
 
         [Subject("And Specification")]
-        public class when_satisfying_one_satisfied_specificaton_and_one_unsatisfied_specification
+        public class when_satisfying_one_satisfied_specification_and_one_unsatisfied_specification
         {
             static ISpecification<string> _nameContainsJaneAndDoeSpecification;
             static bool _results;
@@ -42,7 +42,7 @@ namespace Satisfied.Specs
         }
 
         [Subject("And Specification")]
-        public class when_satisfying_one_unsatisfied_specificaton_and_one_satisfied_specification
+        public class when_satisfying_one_unsatisfied_specification_and_one_satisfied_specification
         {
             static ISpecification<string> _nameContainsJaneAndDoeSpecification;
             static bool _results;
@@ -60,7 +60,7 @@ namespace Satisfied.Specs
         }
 
         [Subject("And Specification")]
-        public class when_satisfying_two_unsatisfied_specifiations
+        public class when_satisfying_two_unsatisfied_specifications
         {
             static ISpecification<string> _nameContainsJaneAndDoeSpecification;
             static bool _results;
